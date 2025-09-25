@@ -1,16 +1,75 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%; /* Optional: for a round image */
+            display: block;
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        a {
+            color: #0077b5; /* LinkedIn color */
+        }
+        #skills, #projects {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        #projects ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <img src="//s.imgur.com/min/embed.js" alt="A professional photo of the developer">
+
+    <h1>Sushant Gawade</h1>
+
+    <p>
+        <a href="https://www.linkedin.com/in/sushantgawade/" target="_blank">View My LinkedIn Profile</a>
+    </p>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>I am a versatile developer proficient in a variety of modern technologies. My core skills include:</p>
+        <ul>
+            <li>**Languages:** HTML5, CSS3, JavaScript (ES6+)</li>
+            <li>**Frameworks/Libraries:** React, Node.js, Express</li>
+            <li>**Databases:** MongoDB, PostgreSQL</li>
+            <li>**Tools:** Git, Docker, VS Code</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                **E-commerce Platform:** A full-stack application built with React and Express, featuring user authentication and a payment gateway integration.
+            </li>
+            <li>
+                **Weather Dashboard:** A front-end project using a public API to display real-time weather data for various cities, styled with CSS Grid.
+            </li>
+            <li>
+                **Personal Blog Site:** A static site generated using a tool like Jekyll/Hugo, focused on performance and responsive design.
+            </li>
+        </ul>
+    </section>
 
 </body>
-
 </html>
